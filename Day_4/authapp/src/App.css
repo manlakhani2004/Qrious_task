@@ -1,0 +1,130 @@
+/* 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.btn-nav{
+    padding-block:10px;
+    /* padding-inline: 2rem; */
+    margin-top: 1rem;
+    /* background-color: #4f46e5; */
+    text-decoration: underline;
+    width: max-content;
+    cursor: pointer;
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+/* User Info Section */
+.user-section {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.user-info h2 {
+  color: #00796b;
+  margin-bottom: 5px;
+}
+
+.user-info .email {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Login Prompt */
+.login-prompt h3 {
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+.btn-nav {
+  display: inline-block;
+  /* background-color: #0288d1; */
+  /* color: white; */
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-nav:hover {
+  background-color: #01579b;
+}
+
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+}
+
+.welcome-section h1 {
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  color: #555;
+  font-size: 1rem;
+}
